@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:gravity="center_horizontal"
+    android:background="#FFFFFF">
+
+    <TextView
+        android:id="@+id/tvNombreApp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="FoodExpress"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        android:textColor="#E67E22"
+        android:layout_marginTop="40dp" />
+
+    <ImageView
+        android:id="@+id/ivRestaurante"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_marginTop="32dp"
+        android:src="@drawable/restaurant_banner"
+        android:scaleType="centerCrop"
+        app:shapeAppearanceOverlay="@null" />
+
+    <TextView
+        android:id="@+id/tvBienvenida"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="¡Bienvenido a la mejor experiencia culinaria!"
+        android:textSize="18sp"
+        android:textAlignment="center"
+        android:textColor="#34495E"
+        android:layout_marginTop="32dp" />
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnRealizarRegistro"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Realizar Registro"
+        android:textAllCaps="false"
+        android:textSize="18sp"
+        android:backgroundTint="#E67E22"
+        app:cornerRadius="12dp"
+        android:layout_marginBottom="24dp" />
+
+</LinearLayout>
