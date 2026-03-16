@@ -54,4 +54,4 @@ Se utiliza `finishAffinity()` para cerrar todas las actividades de la pila y sal
 4.  **Ejecutar:** Presiona el botón verde de "Run" (flecha) en la barra superior.
 
 ---
-**Desarrollado por:** Dumar Pabón (Proyecto Académico)
+**Desarrollado por:** Dumar Pabón Curso: Desarrollo Móvil 1 - Actividad 5 - UNIVERSIDAD MANUELA BELTRAN 
